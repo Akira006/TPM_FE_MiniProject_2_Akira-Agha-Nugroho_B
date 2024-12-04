@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Application</title>
+  </head>
+  <link rel="stylesheet" href="todostyle.css" />
+
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>Todo Application</h2>
+        <p>Hi there, welcome back, its time to complete your tasks.</p>
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Enter your task here"
+          />
+          <button onclick="addTask()">+</button>
+        </div>
+        <div class="task-list">
+          <ul id="list-container">
+            <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="todoscript.js"></script>
+  </body>
+</html>
